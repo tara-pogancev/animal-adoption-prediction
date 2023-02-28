@@ -1,0 +1,37 @@
+Pitanja za analizu karakteristika:
+
+~30k kuca i maca
+intake_condition:
+['Normal' 'Sick' 'Aged' 'Injured' 'Other' 'Pregnant' 'Nursing' 'Feral']
+
+intake_type:
+['Owner Surrender' 'Public Assist' 'Stray']
+
+outcome_type: 
+['Transfer' 'Adoption' 'Euthanasia' 'Rto-Adopt' 'Died' 'Missing'
+ 'Disposal' nan]
+
+1. Koje karakteristike su najcesce?
+Dogs: Intelligent, Alert, Loyal, Courageous, Energetic, Friendly, Playful, Gentle, lively, Affectionate
+Cats: Active, playful, easygoing, curious, calm, loving, agile, clever, energetic, sociable
+
+2. Koje i koliko karakteristika ima smisla izbaciti?
+Za kuce sve koje isu u top 10 najpopularnijih, 
+za mace sve koje nisu u prvih 5 i posle 15. Prvih 5 osobina imaju skoro sve mace, a posledjnih 15 je premalo za analizu.
+
+3. Koje karakteristike najkrace ostaju u prihvatilistu - udomljene?
+Za mace nema pravila, a za kuce se pomalo isticu lively i courageous.
+
+4. Koje karakteristike najduze ostaju u prihvatilistu?
+Ni za mace ni za kuce se ne istice ni jedna osobina :( 
+Nema nikakve zakonitosti u sutini, isto je kao njihova raspodela po ucestalosti
+
+5. Koje su najdominantnije osobine kod owner-surrender zivotinjica?
+Dogs: Alert, loyal, courageous :(
+Cats: Intelligent, social, gentle :(
+
+6. Koje su najdominantnije osobine kod lutalica?
+Dogs: alert, loyal, courageous
+Cats: intelligent, social, affectionate
+
+
